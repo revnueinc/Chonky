@@ -213,7 +213,7 @@ export const useDndHoverOpen = (file: Nullable<FileData>, dndState: DndEntryStat
                         })
                     ),
                 // TODO: Make this timeout configurable
-                1500
+                0
             );
         }
         return () => {
